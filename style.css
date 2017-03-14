@@ -1,0 +1,453 @@
+/*
+Theme Name:		5Elements
+Theme URI:		mZoo.org -> http://thematosoup.com/products/twenty-thirteen-multi-colored/
+Description:	Multicolor child theme for the Twenty Thirteen theme 
+Author:			ThematoSoup
+Author URI:		http://thematosoup.com
+Template:		twentythirteen
+Tags:			blue, gray, green, yellow, pink, purple, red, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Version:		1.0.4
+
+This theme and all bundled resources are licensed under the GPL. Use it to make something cool, have fun, and share what you've learned with others.
+
+Header/BG Images License
+Author:			Slobodan Manic ​http://thematosoup.com
+License:		GPLv2
+*/
+
+@import url("../twentythirteen/style.css");
+/*Mike iLL/mZoo add */
+li.fontResizer a {
+font-family: Aclonica,century gothic,helvetica,sans-serif;
+}
+
+.nav-menu li a {
+    padding: 15px 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: Aclonica,century gothic,helvetica,sans-serif;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 13px 0;
+}
+h2 {
+    font-size: 28px;
+}
+
+.textwidget h2, .textwidget h3 {text-align:center;}
+.textwidget h2 {font-size:22px}
+.textwidget h3 {font-size:14px}
+.textwidget h5 {font-size:14px;margin:0;font-family:arial, helvetica;}
+
+
+
+/* Original Styling */
+
+.home .entry-title { display: none; }
+
+.site-header .site-title:hover {
+	text-decoration: none;
+    font-weight: normal;
+}
+
+.site-title {
+	font-family: Aclonica,century gothic,helvetica,sans-serif;
+	font-size:38px;
+    margin: 0px;
+    text-align: center;
+}
+
+.site-description {
+	margin: 0;
+	text-align:center;
+	padding:0;
+}
+
+
+body {
+	color: #121312;
+}
+body a {
+	color: #88ad25;
+}
+body a:visited {
+	color: #93931d;
+}
+body a:active,
+body a:hover {
+	color: #80cd45;
+}
+body mark {
+	background: #26d926;
+}
+body ins {
+	background: #cdf5c9;
+}
+body button,
+body input,
+body textarea {
+	border: 2px solid #c1d0be;
+}
+body input,
+body textarea {
+	color: #121312;
+}
+body input:focus,
+body textarea:focus {
+	border: 2px solid #b0bfae;
+}
+body button,
+body input[type="submit"],
+body input[type="button"],
+body input[type="reset"] {
+	background: #9ac43e;
+	background: -webkit-linear-gradient(top, #9ac43e 0%, #97bb2f 100%);
+	background: linear-gradient(to bottom, #9ac43e 0%, #97bb2f 100%);
+	border: none;
+	border-bottom: 3px solid #7f9e21;
+	color: #fff;
+}
+body button:hover,
+body button:focus,
+body input[type="submit"]:hover,
+body input[type="button"]:hover,
+body input[type="reset"]:hover,
+body input[type="submit"]:focus,
+body input[type="button"]:focus,
+body input[type="reset"]:focus {
+	background: #a9d14d;
+	background: -webkit-linear-gradient(top, #a9d14d 0%, #a7c943 100%);
+	background: linear-gradient(to bottom, #a9d14d 0%, #a7c943 100%);
+}
+body button:active,
+body input[type="submit"]:active,
+body input[type="button"]:active,
+body input[type="reset"]:active {
+	background: #97bb2f;
+	background: -webkit-linear-gradient(top, #97bb2f 0%, #9ac43e 100%);
+	background: linear-gradient(to bottom, #97bb2f 0%, #9ac43e 100%);
+	border-top: 3px solid #7f9e21;
+}
+body ::-webkit-input-placeholder {
+	color: #707a6f;
+}
+body :-moz-placeholder {
+	color: #707a6f;
+}
+body ::-moz-placeholder {
+	color: #707a6f;
+}
+body :-ms-input-placeholder {
+	color: #707a6f;
+}
+body .wp-caption .wp-caption-text,
+body .entry-caption,
+body .gallery-caption {
+	color: #1f1e11;
+}
+body .site-header .home-link {
+	color: #121312;
+}
+body .nav-menu li a {
+	color: #121312;
+	font-family: Aclonica,century gothic,helvetica,sans-serif;
+}
+body .nav-menu li:hover > a,
+body .nav-menu li a:hover {
+	background-color: #1f1e11;
+	color: #fff;
+}
+body .nav-menu .sub-menu,
+body .nav-menu .children {
+	background-color: #1f1e11;
+	border: 2px solid #eaf4e9;
+	border-top: none;
+}
+body ul.nav-menu ul a:hover,
+body .nav-menu ul ul a:hover {
+	background-color: #a5c148;
+}
+body .nav-menu .current_page_item > a,
+body .nav-menu .current_page_ancestor > a,
+body .nav-menu .current-menu-item > a,
+body .nav-menu .current-menu-ancestor > a {
+	color: #82a124;
+}
+body ul.nav-menu ul a,
+body .nav-menu ul ul a {
+	color: #fff;
+	margin: 0;
+	width: 200px;
+}
+body .navbar {
+	background-color: #eaf4e9;
+}
+body .site-header .search-field:focus {
+	border: 2px solid #b0bfae;
+}
+body .entry-title a {
+	color: #121312;
+}
+body .entry-title a:hover {
+	color: #80cd45;
+}
+body .entry-meta a {
+	color: #82a124;
+}
+body .entry-meta a:hover {
+	color: #82a124;
+}
+body .entry-content a,
+body .comment-content a {
+	color: #82a124;
+}
+body .entry-content a:hover,
+body .comment-content a:hover {
+	color: #80cd45;
+}
+body .format-status .entry-content .page-links a,
+body .format-gallery .entry-content .page-links a,
+body .format-chat .entry-content .page-links a,
+body .format-quote .entry-content .page-links a,
+body .page-links a {
+	background: #bbca46;
+	border: 1px solid #bbca46;
+}
+body .format-gallery .entry-content .page-links a:hover,
+body .format-audio .entry-content .page-links a:hover,
+body .format-status .entry-content .page-links a:hover,
+body .format-video .entry-content .page-links a:hover,
+body .format-chat .entry-content .page-links a:hover,
+body .format-quote .entry-content .page-links a:hover,
+body .page-links a:hover {
+	color: #bbca46;
+}
+body .page-links .page-links-title {
+	background: transparent;
+}
+body .hentry .mejs-mediaelement,
+body .hentry .mejs-container .mejs-controls {
+	background: #1f1e11;
+}
+body .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #80cd45;
+}
+body .format-aside {
+	background-color: #eaf4e9;
+}
+body .blog .format-aside:first-of-type,
+body .single .format-aside:first-of-type,
+body .format-aside + .format-aside,
+body .format-aside + .format-link,
+body .format-link + .format-aside {
+	box-shadow: inset 0 2px 2px rgba(121, 163, 115, 0.2);
+}
+body .format-audio {
+	background-color: #a5c148;
+}
+body .format-audio .entry-title {
+	font-size: 28px;
+	font-weight: bold;
+}
+body .format-audio .entry-content:before {
+	content: "\f109";
+	float: left;
+	font-size: 64px;
+	position: relative;
+	top: 4px;
+}
+body .format-audio .entry-content a,
+body .format-audio .entry-meta a,
+body .format-audio .entry-content a:hover,
+body .format-audio .entry-meta a:hover {
+	color: #f5faf4;
+}
+body .format-chat {
+	background-color: #bbe0b0;
+}
+body .format-chat .entry-meta a,
+body .format-chat .entry-content a {
+	color: #576526;
+}
+body .format-chat .chat .chat-timestamp {
+	color: #576526;
+}
+body .format-gallery {
+	background-color: #7ade58;
+}
+body .format-gallery .entry-meta a,
+body .format-gallery .entry-content a {
+	color: #576526;
+}
+body .format-link {
+	background-color: #eaf4e9;
+}
+body .blog .format-link:first-of-type,
+body .single .format-link:first-of-type {
+	box-shadow: inset 0 2px 2px rgba(121, 163, 115, 0.2);
+}
+body .format-link .entry-title {
+	color: #88ad25;
+}
+body .format-link .entry-title a {
+	color: #82a124;
+}
+body .format-quote {
+	background-color: #1e1c10;
+}
+body .format-quote .entry-content,
+body .format-quote .entry-meta {
+	color: #eaf4e9;
+}
+body .format-quote .entry-content a,
+body .format-quote .entry-meta a,
+body .format-quote .linked {
+	color: #bbca46;
+}
+body .format-status {
+	background-color: #576526;
+}
+body .format-status .entry-content a {
+	color: #bbe0b0;
+}
+body .format-status .entry-meta a {
+	color: #eaf4e9;
+}
+body .format-status .entry-content {
+	color: #eaf4e9;
+}
+body .format-video {
+	background-color: #a5c148;
+}
+body .format-video .entry-content a,
+body .format-video .entry-meta a,
+body .format-video .entry-content a:hover,
+body .format-video .entry-meta a:hover {
+	color: #f5faf4;
+}
+body .format-video .entry-meta {
+	color: #1f1e11;
+}
+body .attachment .hentry {
+	background-color: #d4e4d2;
+}
+body .attachment .entry-meta a,
+body .attachment .entry-meta .edit-link:before,
+body .attachment .full-size-link:before {
+	color: #88ad25;
+}
+body .navigation a {
+	color: #82a124;
+}
+body .navigation a:hover {
+	color: #80cd45;
+}
+body .paging-navigation {
+	background-color: #d4e4d2;
+}
+body .paging-navigation .meta-nav {
+	background-color: #bbca46;
+}
+body .paging-navigation a:hover .meta-nav {
+	background-color: #80cd45;
+}
+body .post-navigation {
+	color: #88ad25;
+}
+body .single-format-status .author-description {
+	color: #eaf4e9;
+}
+body .author-link {
+	color: #88ad25;
+}
+body .archive-header {
+	background-color: #d4e4d2;
+}
+body .page-header {
+	background-color: #d4e4d2;
+}
+body .error404 .page-title:before {
+	color: #d4e4d2;
+}
+body .error404 .page-wrapper {
+	background-color: #d4e4d2;
+}
+body .comment-author .fn,
+body .comment-author .url,
+body .comment-reply-link,
+body .comment-reply-login {
+	color: #82a124;
+}
+body .comment-meta a:hover {
+	color: #80cd45;
+}
+body .comment-respond {
+	background-color: #eaf4e9;
+}
+body .comment-reply-title small a {
+	color: #101210;
+}
+body .comment-reply-title small a:hover {
+	color: #bdce3b;
+}
+body .comment-form .required {
+	color: #bdce3b;
+}
+body .form-allowed-tags,
+body .form-allowed-tags code {
+	color: #5b655a;
+}
+body .no-comments {
+	background-color: #eaf4e9;
+}
+body .widget {
+	background-color: rgba(234, 244, 233, 0.7);
+}
+body .widget a {
+	color: #82a124;
+}
+body .widget a:hover {
+	color: #80cd45;
+}
+body .site-footer {
+	background-color: #d4e4d2;
+	color: #5b655a;
+}
+body .site-footer a {
+	color: #5b655a;
+}
+body .site-footer .sidebar-container {
+	background-color: #1f1e11;
+}
+body .site-footer .widget a {
+	color: #baca46;
+}
+body .widget_calendar tbody .pad, body .site-footer .widget_calendar tbody .pad {
+	background-color: transparent;
+}
+body .site-footer .widget {
+	background: transparent;
+	color: #fff;
+}
+@media (max-width: 643px) {
+	body .toggled-on .nav-menu li > ul a {
+		color: #121312;
+	}
+	body .toggled-on .nav-menu li > ul {
+		background-color: transparent;
+	}
+	body .toggled-on .nav-menu li:hover > a,
+	body .toggled-on .nav-menu .children a {
+		background-color: transparent;
+		color: #121312;
+	}
+	body .toggled-on .nav-menu li a:hover,
+	body .toggled-on .nav-menu ul a:hover {
+		background-color: #a5c148;
+	}
+}
