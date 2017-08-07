@@ -68,6 +68,12 @@ h2 {
 	padding:0;
 }
 
+@media screen and (min-width: 740px) {
+    .front-page-spacer {
+        height: 250px;
+    }
+}
+
 
 body {
 	color: #121312;
